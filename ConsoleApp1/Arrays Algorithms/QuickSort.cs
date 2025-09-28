@@ -7,7 +7,7 @@ public static class QuickSort
         var startElement = array[rightIndex];
         var i = leftIndex - 1;
 
-        for (int j = 0; j < rightIndex; j++)
+        for (int j = leftIndex; j < rightIndex; j++)
         {
             if (array[j] <= startElement)
             {
