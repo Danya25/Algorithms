@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/worker/RiderProjects/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj": {}
+    "/Users/worker/RiderProjects/Algorithms/ConsoleApp1/ConsoleApp1.csproj": {}
   },
   "projects": {
-    "/home/worker/RiderProjects/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj": {
+    "/Users/worker/RiderProjects/Algorithms/ConsoleApp1/ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/worker/RiderProjects/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
+        "projectUniqueName": "/Users/worker/RiderProjects/Algorithms/ConsoleApp1/ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "/home/worker/RiderProjects/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
-        "packagesPath": "/home/worker/.nuget/packages/",
-        "outputPath": "/home/worker/RiderProjects/ConsoleApp1/ConsoleApp1/obj/",
+        "projectPath": "/Users/worker/RiderProjects/Algorithms/ConsoleApp1/ConsoleApp1.csproj",
+        "packagesPath": "/Users/worker/.nuget/packages/",
+        "outputPath": "/Users/worker/RiderProjects/Algorithms/ConsoleApp1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/worker/.nuget/NuGet/NuGet.Config"
+          "/Users/worker/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,7 +37,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -53,12 +54,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.19, 8.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[8.0.19, 8.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.19, 8.0.19]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/worker/.dotnet/sdk/8.0.411/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/worker/.dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
