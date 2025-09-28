@@ -18,11 +18,15 @@ var b = 0;
 var swappedNums = SelectionSort.Sort(nums);*/
 
 //Insertion sort
-var nums = new int[] { 7, 3, 9, 12, 11 };
-var swappedNums = InsertionSort.Sort(nums);
+//var nums = new int[] { 7, 3, 9, 12, 11 };
+//var swappedNums = InsertionSort.Sort(nums);
+
+//Quick Sort
+ var nums = new[] { 64, 34, 25, 12, 22, 11, 90, 5 };
+ var swappedNums = QuickSort.Sort(nums);
 
 
-foreach(var num in swappedNums)
-{
-    Console.WriteLine(num);
-}
+ foreach(var num in swappedNums)
+ {
+     Console.WriteLine(num);
+ }
